@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=59376" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=59376" type="text/javascript"></script>
+    <link href="css/main.css?v=89958" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=89958" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -28,7 +28,19 @@
             <div class="header__logo"><a href="index.html"><img src="img/icons/logo-unab.png"></a></div>
             <div class="header__right">
               <div class="header__actions">
-                <div class="header__action header__action--desktop"><a href="" class="btn btn--min">Gestiona tu caso<img src="img/icons/icon-edit.png"></a></div>
+                <div class="header__search"> 
+                  <form action="#">
+                    <div class="form__contener">
+                      <div class="form__input"> 
+                        <input type="text" name="#" placeholder="¿Qué estás buscando?">
+                        <div class="form__button"> 
+                          <button> <span class="fa fa-search"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="header__action header__action--desktop"><a href="gestiona-tu-caso.html" class="btn btn--min">Gestiona tu caso<img src="img/icons/icon-edit.png"></a></div>
                 <div class="header__action header__action--desktop"><a data-modal-login class="btn btn--min btn--blue">Acceso Intranet<img src="img/icons/icon-profile.png"></a></div>
               </div>
             </div>
@@ -76,38 +88,42 @@
                     </li>
                     <li><a href="#">Beneficios Estudiantiles</a>
                       <ul class="sub-menu"> 
-                        <li><a href="#">Matrícula online</a></li>
+                        <li><a href="matricula-online.html">Matrícula online</a></li>
                         <li><a href="sube-tu-convenio.html">Sube tu convenio</a></li>
                         <li><a href="#">Portal de pago</a></li>
-                        <li><a href="reporgramacion.html">Reprogramación</a></li>
+                        <li><a href="reprogramacion.html">Reprogramación</a></li>
                         <li><a href="redocumentacion.html">Redocumentación</a></li>
                         <li><a href="pago-de-cursos.html">Pago de cursos</a></li>
                       </ul>
                     </li>
                     <li><a href="#">Matrícula y Finaciamiento</a>
                       <ul class="sub-menu"> 
-                        <li><a href="#">TNE</a></li>
-                        <li><a href="#">Financiamiento</a></li>
-                        <li><a href="#">Beca BAES</a></li>
-                        <li><a href="#">Oportunidades internacionales</a></li>
-                        <li><a href="#">Seguro de accidentes</a></li>
-                        <li><a href="#">CIADE</a></li>
-                        <li><a href="#">D.E.I.</a></li>
+                        <li><a href="tne.html">TNE</a></li>
+                        <li><a href="financiamiento.html">Financiamiento</a></li>
+                        <li><a href="beca-baes.html">Beca BAES</a></li>
+                        <li><a href="oportunidades-internacionales.html">Oportunidades internacionales</a></li>
+                        <li><a href="seguro-de-accidentes.html">Seguro de accidentes</a></li>
+                        <li><a href="ciade.html">CIADE</a></li>
+                        <li><a href="dei.html">D.E.I.</a></li>
                         <li><a href="#">DGDE</a></li>
                         <li><a href="#">Cultura</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Noticias</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
                     <li><a href="#">Portal de empleos</a></li>
-                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
                     <li><a href="#">Alumnos</a>
                       <ul class="sub-menu"> 
-                        <li><a href="#">Alumnos Egresados</a></li>
+                        <li><a href="alumnos-egresados.html">Alumnos Egresados</a></li>
                         <li><a href="#">Alumnos Nuevos</a></li>
                       </ul>
                     </li>
                   </ul>
                 </nav>
+                <div class="header__buttons"> 
+                  <div class="header__button"><a href="gestiona-tu-caso.html" class="btn btn--min">Gestiona tu caso<img src="img/icons/icon-edit.png"></a></div>
+                  <div class="header__button"><a data-modal-login class="btn btn--min btn--blue">Acceso Intranet<img src="img/icons/icon-profile.png"></a></div>
+                </div>
               </div>
             </div>
             <div class="header__right">
@@ -176,7 +192,7 @@
           <div class="section__body">
             <div class="section__actions">
               <div class="cols">
-                <div class="col-md-3"> 
+                <div class="col-md-6 col-lg-3"> 
                   <article class="article--action">
                     <div class="article__header"> 
                       <div class="article__icon"> <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +217,7 @@
                     <div class="article__arrow"> <a href="#"><span class="fa fa-angle-right"></span></a></div>
                   </article>
                 </div>
-                <div class="col-md-3"> 
+                <div class="col-md-6 col-lg-3"> 
                   <article class="article--action"> 
                     <div class="article__header"> 
                       <div class="article__icon"> <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -219,7 +235,7 @@
                     <div class="article__arrow"> <a href="#"><span class="fa fa-angle-right"></span></a></div>
                   </article>
                 </div>
-                <div class="col-md-3"> 
+                <div class="col-md-6 col-lg-3"> 
                   <article class="article--action"> 
                     <div class="article__header"> 
                       <div class="article__icon"> <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -237,7 +253,7 @@
                     <div class="article__arrow"> <a href="#"><span class="fa fa-angle-right"></span></a></div>
                   </article>
                 </div>
-                <div class="col-md-3"> 
+                <div class="col-md-6 col-lg-3"> 
                   <article class="article--action"> 
                     <div class="article__header"> 
                       <div class="article__icon"> <svg width="84" height="95" viewBox="0 0 84 95" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -434,9 +450,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>Necesito un certificado, ¿dónde lo puedo obtener?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Cras tempor eros et tempus molestie egestas platea velit ac. Mi pretium enim tincidunt id erat a torquent per sem vitae quam suspendisse eros urna.
+                      <p>Ante sem id quisque ut lacinia pulvinar aenean malesuada habitasse. Convallis lacus fusce morbi dapibus dapibus posuere pulvinar lobortis sem rhoncus netus auctor interdum aptent.
                       </p>
-                      <p>Fusce cursus fringilla elementum ultrices curae conubia rhoncus per nisi. Rutrum viverra sociosqu varius neque elit nibh porta per metus. Taciti dictum pulvinar donec tempus lacinia suscipit nostra luctus proin. Litora et phasellus massa sapien platea sed lobortis integer viverra. Curae conubia hac mollis tempus gravida massa varius tempus torquent. Ligula posuere laoreet scelerisque suspendisse libero etiam ultricies semper feugiat donec eget integer tempus justo.
+                      <p>Erat convallis tellus donec semper mauris velit faucibus dictum nisi. Interdum augue neque conubia placerat turpis scelerisque tempor venenatis pulvinar. Arcu pulvinar donec taciti rutrum orci commodo donec donec tempor. Donec etiam gravida leo curae posuere orci phasellus etiam litora. Etiam laoreet donec sociosqu felis aliquam duis ad dictum eleifend. Torquent tristique auctor torquent nibh cursus platea in integer leo etiam imperdiet praesent nisl eu.
                       </p>
                     </div>
                   </div>
@@ -445,9 +461,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿Cómo puedo suspender, renunciar o reintegrarme a una carrera?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Placerat mauris maecenas fermentum eleifend lacus massa arcu scelerisque turpis. Cubilia non nam erat integer luctus elementum eros tempor suspendisse est laoreet pellentesque ultricies enim.
+                      <p>Lobortis morbi varius venenatis orci sociosqu primis tortor ut aenean. Vestibulum augue in per aenean leo potenti praesent vehicula cursus eros tempor vehicula commodo adipiscing.
                       </p>
-                      <p>Himenaeos aliquam pulvinar gravida quam quisque aliquam tempor scelerisque sociosqu. Ornare dapibus donec egestas eros nec inceptos per dictumst vulputate. Bibendum nec turpis porttitor condimentum massa libero sociosqu vehicula litora. Erat ultricies ornare consectetur aliquam aliquet etiam et rhoncus auctor. Consectetur ut neque tempus enim diam maecenas urna curae commodo. Curae bibendum sed mollis sollicitudin felis mi nisi tristique est tristique donec curabitur dictumst congue.
+                      <p>Sed venenatis donec morbi accumsan ligula vitae tortor consequat suscipit. Ultricies erat arcu nulla aliquam inceptos integer himenaeos feugiat netus. Purus ullamcorper laoreet non ut inceptos tristique iaculis scelerisque metus. Neque ut libero cras mi himenaeos tellus odio elit nunc. Aenean torquent blandit velit condimentum porta phasellus quisque ornare pretium. Himenaeos class urna magna cubilia nostra ad sed convallis luctus commodo placerat porttitor nisi urna.
                       </p>
                     </div>
                   </div>
@@ -456,9 +472,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿Dónde encuentro información de pagos y créditos?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Vivamus quisque aliquet ante hac torquent habitant vel erat etiam. Consectetur pharetra imperdiet enim lectus condimentum odio justo varius rhoncus porta vitae semper lectus neque.
+                      <p>Dui platea per quis ultrices habitasse donec donec vel at. Curae massa pretium sapien inceptos enim scelerisque commodo et curabitur nibh nunc vehicula nec mattis.
                       </p>
-                      <p>Litora et sed tortor maecenas ut accumsan elit interdum duis. Tortor inceptos nibh potenti fermentum faucibus fames eget egestas malesuada. Class dictum eget faucibus commodo vehicula ligula gravida ante interdum. Erat fusce dictum turpis volutpat vestibulum porttitor et consequat fringilla. Aenean velit pretium nibh posuere phasellus risus egestas velit leo. Phasellus fermentum nostra donec taciti nibh convallis netus sed tempor dictumst dictumst ullamcorper mi mauris.
+                      <p>Quam donec vivamus potenti proin vivamus egestas augue orci tempus. Aliquam senectus colus habitasse at adipiscing eleifend auctor neque massa. Viverra gravida blandit non eget nibh sem id cras vulputate. Tristique suspendisse nullam non elementum nisl sociosqu id tortor quisque. Tincidunt dapibus class venenatis vel cursus suspendisse curabitur a ultrices. Aptent non lectus fusce consectetur quisque aenean arcu lectus malesuada praesent ligula erat dui praesent.
                       </p>
                     </div>
                   </div>
@@ -467,9 +483,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿Cuál es el proceso para matricularme en pregrado?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Primis vivamus eleifend lobortis nullam egestas rutrum himenaeos consectetur dictumst. Vel orci arcu enim aliquet sem etiam class odio lacus etiam morbi feugiat vel eget.
+                      <p>Dapibus vitae quam etiam magna nostra ligula imperdiet malesuada felis. Nec augue sem nibh habitasse ultricies dictum curae sollicitudin himenaeos proin quisque commodo id vel.
                       </p>
-                      <p>Ligula neque egestas lacus sagittis porttitor magna nisi faucibus aptent. Vivamus habitant cras erat fermentum colus litora rhoncus per morbi. Colus integer platea gravida elementum purus est bibendum etiam felis. Platea iaculis pulvinar nisl porttitor colus integer sodales etiam mauris. Risus pharetra commodo curabitur netus vestibulum ante quisque diam torquent. Imperdiet vehicula habitant faucibus commodo ligula cubilia velit aliquet maecenas torquent pretium et ullamcorper eleifend.
+                      <p>Tincidunt donec volutpat nisl tincidunt phasellus aliquam dictum malesuada ornare. Taciti primis bibendum elit sodales tellus ligula scelerisque vivamus tristique. Colus integer suscipit maecenas tristique viverra nostra dictum neque volutpat. Faucibus mauris class lectus eros donec quam porta hendrerit vulputate. Vitae fusce magna leo libero iaculis ante potenti facilisis sodales. Torquent risus tellus quis aliquam nunc lectus felis primis proin sollicitudin quam quis faucibus inceptos.
                       </p>
                     </div>
                   </div>
@@ -478,9 +494,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿Cuál es el proceso para matricularme en posgrado?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Congue felis sed cubilia pulvinar etiam torquent pellentesque consectetur feugiat. Fusce cursus cras aenean sed senectus tortor lacus fringilla nibh lectus sapien tempor nec varius.
+                      <p>Aenean facilisis ullamcorper donec himenaeos praesent rutrum aliquam at curabitur. Laoreet pellentesque curae magna velit blandit aliquet urna laoreet eleifend donec accumsan hac lectus aliquet.
                       </p>
-                      <p>Fermentum laoreet senectus habitasse tortor interdum tortor per pharetra purus. Interdum semper gravida per cursus ad nibh id ultrices turpis. Duis fames ullamcorper cras ultrices curabitur vitae placerat phasellus nibh. Dapibus ac taciti lobortis pharetra habitasse nec condimentum vestibulum suspendisse. Neque integer curabitur nisl orci pellentesque nulla porttitor ac elementum. Metus iaculis suscipit accumsan hac in congue vulputate nisl felis porta nam velit augue iaculis.
+                      <p>Suspendisse bibendum felis habitasse etiam mauris accumsan taciti et quisque. Malesuada venenatis vitae nec sem vitae curabitur aliquam donec sem. Nulla conubia phasellus elementum enim mollis sagittis ante ut ligula. Tellus suspendisse fermentum vel imperdiet morbi erat turpis enim eget. Velit libero vulputate aenean phasellus non blandit fermentum nec velit. Quisque vehicula fermentum vitae metus sed commodo at duis dictum quisque aptent consequat potenti platea.
                       </p>
                     </div>
                   </div>
@@ -489,9 +505,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿Cuál es el proceso para matricularme en advance?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Curabitur nulla diam aenean porttitor dictum sociosqu euismod donec pellentesque. Vivamus donec orci elementum nunc egestas accumsan semper lacus nunc quisque velit dui risus cras.
+                      <p>Eget cursus porttitor lobortis mollis curabitur porta dictumst fringilla venenatis. Morbi magna nisl nisl pulvinar quam fames mollis est odio commodo aliquet dictum volutpat facilisis.
                       </p>
-                      <p>Sodales vehicula est ultricies praesent morbi aenean himenaeos elementum nam. Posuere donec lectus quam libero metus congue ante mattis primis. Habitasse nisi elit habitant torquent habitant accumsan aliquet posuere inceptos. Enim adipiscing torquent eget aptent odio sed id lectus rhoncus. Netus viverra porttitor curabitur et colus aliquam risus mauris tincidunt. Fames maecenas nunc colus convallis aptent lacinia pharetra tristique rutrum potenti cursus massa lacus luctus.
+                      <p>Accumsan aptent vulputate convallis etiam conubia tempus dui habitant elit. Porta integer hendrerit libero eget risus faucibus in donec sollicitudin. Nostra semper faucibus dictumst ut ac hac turpis a rutrum. Suspendisse dui morbi leo litora malesuada proin ultrices posuere lacus. Sed fames placerat sapien arcu elit et vivamus curabitur porttitor. Gravida convallis auctor elementum senectus conubia pulvinar sed duis sodales morbi nunc ut litora donec.
                       </p>
                     </div>
                   </div>
@@ -500,9 +516,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿Cómo puedo postular a una beca o a la gratuidad?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Venenatis iaculis vitae venenatis vel leo imperdiet fusce sed consequat. Lacus suscipit sociosqu maecenas velit tristique mi maecenas nibh tristique ornare lobortis lacus proin vehicula.
+                      <p>Semper varius gravida sed libero nulla morbi litora platea duis. Est aliquet adipiscing ligula vel consectetur faucibus fames sodales vehicula colus et mattis lacus suspendisse.
                       </p>
-                      <p>At et mauris varius congue nunc congue mi pharetra iaculis. Elit vivamus aliquam taciti ac phasellus fermentum turpis torquent fusce. Elit eros enim cras donec ligula tempus etiam a condimentum. Tempor torquent feugiat molestie phasellus eleifend diam varius curabitur felis. Mauris donec volutpat purus at gravida feugiat at varius massa. Cubilia vehicula velit inceptos donec elit himenaeos habitant etiam tincidunt cras primis auctor consequat faucibus.
+                      <p>Cubilia purus imperdiet hendrerit nisl tempor risus taciti suscipit id. Fusce colus per in quis blandit ac lectus porttitor justo. Dui ultricies sed nulla auctor elementum risus etiam pharetra vivamus. Metus etiam sagittis vehicula litora elementum dictumst enim sapien colus. Elit quisque sagittis tincidunt elit commodo integer arcu conubia porta. Bibendum mauris sollicitudin laoreet nibh libero viverra suscipit nam at suspendisse urna nullam duis convallis.
                       </p>
                     </div>
                   </div>
@@ -511,9 +527,9 @@
                   <h3 class="faq__question"><span class="fa fa-angle-down"></span>¿A quién puedo recurrir si siento que han vulnerado mis derechos?</h3>
                   <div class="faq__answer">
                     <div class="section__content wp">
-                      <p>Pulvinar tristique a ornare faucibus urna donec luctus mollis maecenas. Ad hac litora est neque ad nunc quisque eleifend gravida erat fusce quis maecenas turpis.
+                      <p>Adipiscing vivamus ligula imperdiet congue molestie placerat nisl velit id. Hac urna bibendum nibh duis consequat mi tortor euismod litora nec semper hac fames tempor.
                       </p>
-                      <p>Ut nisi diam per pulvinar ultricies convallis dapibus curae nulla. Laoreet quisque aliquam quis ultrices aliquet libero suspendisse primis etiam. Accumsan eros accumsan adipiscing commodo ante at fringilla fringilla bibendum. Posuere egestas libero tincidunt iaculis consectetur adipiscing faucibus molestie volutpat. Molestie vestibulum taciti ligula eros sodales malesuada lacinia colus varius. Dui libero felis praesent consequat tempus luctus sagittis convallis egestas platea vehicula id feugiat porta.
+                      <p>Vehicula etiam lacus euismod curae purus viverra ultrices dui porttitor. Himenaeos leo justo cursus congue nibh etiam libero platea odio. Hac quam per volutpat imperdiet tellus dictumst pulvinar lectus lacinia. Cursus donec neque egestas erat rhoncus interdum inceptos taciti vivamus. Eu suscipit pretium ullamcorper auctor sem per in augue nullam. Id a erat platea sollicitudin pharetra neque dui nostra mauris curae id orci etiam ligula.
                       </p>
                     </div>
                   </div>
@@ -562,7 +578,7 @@
             <div class="modal__close"><span class="fa fa-close">	</span></div>
             <div class="modal__content">
               <h3 class="modal__title">Registrarse</h3>
-              <p class="modal__description">Potenti tellus phasellus aenean cubilia hendrerit tortor auctor luctus molestie massa hendrerit pulvinar torquent proin.
+              <p class="modal__description">Curae vestibulum pellentesque gravida gravida quisque hendrerit senectus libero praesent accumsan taciti malesuada vivamus at.
               </p>
               <div class="modal__form">
                 <form class="form form--register">
